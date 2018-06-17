@@ -1,0 +1,26 @@
+.landing {
+    width: 100%;
+    height: 100vh;
+}
+
+.intro {
+    color: white;
+}
+
+.intro .display-3 {
+    margin-bottom: 40px;
+}
+
+.landing-info {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: var(--gray-dark);
+}
+
+.landing-photo {
+    background-image: url("../../img/landing.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

@@ -1,0 +1,15 @@
+.ghost-button {
+    padding: 10px 40px;
+    color: var(--green-foam);
+    border: 1px solid var(--green-foam);
+    outline: none;
+    text-decoration: none;
+    font-size: 26px;
+    border-radius: 30px;
+}
+
+.ghost-button:hover {
+    color: white;
+    background-color: var(--green-foam);
+    text-decoration: none;
+}
