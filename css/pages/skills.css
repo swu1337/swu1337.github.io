@@ -1,0 +1,76 @@
+.skills {
+    background-color: red;
+}
+
+.pro-skills {
+    margin-top: 40px;
+    padding-bottom: 200px;
+}
+
+.skills-title {
+    padding-top: 30px;
+    color: black;
+}
+
+.skill-holder {
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    position: relative;
+    border-radius: 5px;
+}
+
+.skill-holder img {
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.skill-holder figcaption {
+    color: white;
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    transition: 0.3s ease;
+    background-color: rgba(112,193,179, 0.8);
+    border-radius: 5px;
+}
+
+.skill-holder:hover figcaption {
+    opacity: 1;
+}
+
+.skill-holder figcaption .lead {
+    padding: 20px 0;
+    padding-left: 30px;
+    font-size: 24px;
+}
+
+.skill-holder figcaption p {
+    margin: 0;
+    padding-left: 30px;
+}
+
+.skill-holder figcaption .property {
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.skill-holder figcaption .value {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.skills {
+    background-color: var(--yellow-pale);
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 6vw), 0 100%);
+}

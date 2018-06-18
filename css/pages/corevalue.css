@@ -1,10 +1,15 @@
 .corevalue {
-   background-color: white;
+   background-color: var(--yellow-pale);
+}
+
+.corevalue-title {
+    padding-top: 50px;
+    color: white;
 }
 
 .corevalue .card-deck {
     padding-top: 30px;
-    padding-bottom: 140px;
+    padding-bottom: 160px;
 }
 
 .corevalue .card-deck .card {

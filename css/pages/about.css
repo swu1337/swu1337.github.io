@@ -1,9 +1,15 @@
 .about {
     background-color: var(--lapiz);
+    width: 100%;
+    height: 100vh;
 }
 
 .about-title {
     margin-top: 80px;
+}
+
+.about-info {
+    width: 60%;
 }
 
 .about .lead {
@@ -16,10 +22,12 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 12% 100%);
 }
 
 .about-story  {
-    padding: 10px 15px 120px 0px;
+    padding-top: 20px;
+    font-size: 18px;
 }
 
 .about .container-wrapper {
