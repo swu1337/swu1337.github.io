@@ -1,5 +1,5 @@
 .skills {
-    background-color: red;
+    background-color: var(--pink-awesome);
 }
 
 .pro-skills {
@@ -70,7 +70,7 @@
     font-weight: bold;
 }
 
-.skills {
+.skills .container-wrapper {
     background-color: var(--yellow-pale);
     clip-path: polygon(0 0, 100% 0, 100% calc(100% - 6vw), 0 100%);
 }

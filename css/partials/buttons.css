@@ -1,9 +1,9 @@
-.ghost-button {
+a.ghost-button, button.ghost-button {
     display: block;
     width: 210px;
     padding: 10px;
     color: var(--green-foam);
-    border: 1px solid var(--green-foam);
+    border: 2px solid var(--green-foam);
     outline: none;
     text-decoration: none;
     font-size: 26px;
@@ -11,8 +11,54 @@
     text-align: center;
 }
 
-.ghost-button:hover {
+button.ghost-button.green, a.ghost-button.green {
+    color: white;
+    border: solid 2px var(--green-sheen);
+}
+
+a.ghost-button:hover, a.ghost-button:hover {
+    cursor: pointer;
     color: white;
     background-color: var(--green-foam);
     text-decoration: none;
 }
+
+button.ghost-button.green:hover, a.ghost-button.green:hover {
+    background-color: var(--green-sheen);
+}
+
+button.button, a.button {
+    display: block;
+    width: 120px;
+    padding: 10px;
+    color: white;
+    background-color: var(--lapiz);
+    outline: none;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+button.close-button, a.close-button {
+    display: block;
+    width: 90px;
+    padding: 10px;
+    color: white;
+    background-color: #dcdcdc;
+    outline: none;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+button.close-button:hover, a.close-button:hover {
+    background-color: #999;
+    cursor: pointer;
+}
+
+button.button:hover, a.button:hover {
+    cursor: pointer;
+}
+

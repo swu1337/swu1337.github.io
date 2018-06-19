@@ -1,0 +1,20 @@
+.modal-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.modal-header .close {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.modal-body .lead {
+    margin: 0;
+    font-size: 24px;
+}
+
+.modal-body .technology {
+    font-size: 12px;
+}
