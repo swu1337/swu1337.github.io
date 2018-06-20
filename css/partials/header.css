@@ -1,0 +1,35 @@
+header {
+    display: flex;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+    margin: 30px;
+}
+
+.logo img {
+    width: 100%;
+    height: auto;
+}
+
+header nav ul {
+    margin-right: 30px; 
+}
+
+header nav .nav-link {
+    color: white;
+    font-size: 28px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+header nav .nav-link:hover {
+    text-decoration: none;
+    color: var(--lapiz);
+}

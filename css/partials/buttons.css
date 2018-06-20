@@ -40,6 +40,37 @@ button.button, a.button {
     text-align: center;
 }
 
+button.button {
+    border: none;
+}
+
+button.button.submit {
+    font-size: 18px;
+}
+
+button.button.green-foam {
+    background-color: var(--green-foam);
+}
+
+button.button.green-sheen {
+    background-color: var(--green-sheen);
+}
+
+button.button.yellow-pale {
+    background-color: var(--yellow-pale);
+    color: black;
+}
+
+button.button.yellow-pale:hover {
+    background-color: var(--green-sheen);
+    color: white;
+}
+
+button.button.green-sheen:hover {
+    background-color: var(--yellow-pale);
+    color: black;
+}
+
 button.close-button, a.close-button {
     display: block;
     width: 90px;

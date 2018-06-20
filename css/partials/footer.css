@@ -1,0 +1,36 @@
+footer {
+    background-color: var(--gray-dark);
+    padding-top: 20px;
+}
+
+footer .icon-holder {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+footer .icon-holder:hover {
+    background-color: var(--pink-awesome);
+    cursor: pointer;
+}
+
+footer i {
+    font-size: 34px;
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: none; 
+}
+
+footer p {
+    margin: 0; 
+    color: white;
+    text-align: center;
+    padding: 35px 0 5px 0;
+}

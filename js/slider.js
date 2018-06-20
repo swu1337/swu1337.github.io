@@ -1,23 +1,21 @@
 $(function() {
-    $('.work-button').on('click', function() {
-        console.log($('figure'));
-        console.log($('.slider figure'));
-        for (var i = 0; i < $('.slider figure').length; i++) {
-            $('figure').eq(i).css('z-index', $('figure').length - i);
+    var clicked = false;
+    $('#imperium').on('click', function(e) {
+        if(!clicked) {
+            for (var i = 0; i < $('.slider figure').length; i++) {
+                $('.slider figure').eq(i).css('z-index', $('.slider figure').length - i);
+            }
+            clicked = true;
         }
-    
+
         $('.next').on('click', function() {
             var active = $('.active');
             var next = active.next();
-            console.log(next.length);
+
             if(next.is('figure')) {
-                console.log('asd');
                 next.addClass('active');
                 active.animate({opacity: 0}, 1000).removeClass('active');
             } else {
-                //$('figure').animate({opacity: 1}, 1000);
-                console.log($('.slider figure'));
-                
                 var next = $('.slider figure').first();
                 next.animate({opacity: 1}, 1000, function() {
                     $('.slider figure').css('opacity', 1);

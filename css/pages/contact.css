@@ -1,5 +1,6 @@
 .contact {
-    background-color: var(--lapiz);
+    background-color: var(--gray-dark);
+    color: white;
 }
 
 .contact-title {
@@ -9,5 +10,50 @@
 }
 
 .contact  .touch {
-    font-size: 40px;
+    font-size: 42px;
+    padding-bottom: 20px;
+}
+
+.contact .contact-info {
+    color: white;
+}
+
+.contact .row .col-6:first-child {
+    border-right: 2px solid white;
+}
+
+.contact p {
+    margin: 0;
+}
+
+.contact p:nth-child(even) {
+    padding-bottom: 15px;
+    font-size: 20px;
+    color: var(--yellow-pale);
+}
+
+.contact p:nth-child(odd) {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.contact p i {
+    font-size: 30px; 
+    vertical-align: middle;
+    padding-right: 10px;
+}
+
+.contact form .form-row input{
+    margin-bottom: 20px;
+}
+
+.contact form .button {
+    margin-top: 25px;
+    
+}
+
+.contact .container-wrapper {
+    background-color: var(--lapiz);
+    padding-bottom: 120px;
+    clip-path: polygon(0 0,100% 0,100% 100%, 0 calc(100% - 6vw));
 }

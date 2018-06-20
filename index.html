@@ -16,6 +16,25 @@
     <title>Steven Wu Portfolio</title>
 </head>
 <body>
+    <header>
+        <a href="#"><figure class="logo"><img src="img/logo.png" alt="logo" /></figure></a>
+        <nav>
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#work">Work</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
     <section class="landing">
         <div class="h-100 container-fluid">
             <div class="h-100 row container-wrapper">
@@ -32,7 +51,7 @@
             </div>
         </div>
     </section>
-    <section class="about">
+    <section id="about" class="about">
         <div class="h-100 container-fluid">
             <div class="h-100 row container-wrapper">
                 <div class="col center-center">
@@ -231,7 +250,7 @@
             </div>
         </div>
     </section>
-    <section class="work">
+    <section id="work" class="work">
         <div class="container-wrapper">
             <div class="container">
                 <div class="row">
@@ -244,7 +263,7 @@
                         <div class="row no-gutters justify-content-center">
                             <div class="col-6">
                                 <figure class="work-holder" data-toggle="modal" data-target="#modal-hhs">
-                                    <img src="img/work/hhs.jpg" alt="hhs" />
+                                    <img src="img/slider/hhs/hhs1.jpg" alt="hhs" />
                                     <figcaption>
                                         <p class="lead">The Hague University registration system</p>
                                         <p class="date">2016</p>
@@ -256,7 +275,7 @@
                             </div>
                             <div class="col-6">
                                 <figure class="work-holder" data-toggle="modal" data-target="#modal-competa">
-                                    <img src="img/work/competa1.png" alt="competa" />
+                                    <img src="img/slider/competa/competa1.jpg" alt="competa" />
                                     <figcaption>
                                         <p class="lead">Comepta Website</p>
                                         <p class="date">2016</p>
@@ -267,8 +286,8 @@
                                 </figure>
                             </div>
                             <div class="col-6">
-                                <figure class="work-holder" data-toggle="modal" data-target="#modal-imperium">
-                                    <img src="img/work/imperium.png" alt="imperium" />
+                                <figure class="work-holder" id="imperium" data-toggle="modal" data-target="#modal-imperium">
+                                    <img src="img/slider/imperium/1.jpg" alt="imperium" />
                                     <figcaption>
                                         <p class="lead">Imperium Website</p>
                                         <p class="date">2018</p>
@@ -284,7 +303,7 @@
             </div>
         </div>
     </section>
-    <section class="contact">
+    <section id="contact" class="contact">
         <div class="container-wrapper">
             <div class="container">
                 <div class="row">
@@ -293,39 +312,83 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col">
+                    <div class="col-6">
                         <h4 class="display-4 touch">Get in touch</h4>
+                        <section class="contact-info">
+                            <p>E-mail me</p>
+                            <p><i class="fas fa-envelope fa-fw"></i>steven.wu1337&#64;gmail.com</p>
+                            <p>Whatsapp me</p>
+                            <p><i class="fab fa-whatsapp fa-fw"></i>+31 06 373 09 911</p>
+                        </section>
                     </div>
-                    <div class="col"></div>
+                    <div class="col-6">
+                        <h4 class="display-4 touch">Send me a message</h4>
+                        <form>
+                            <div class="form-row">
+                                <div class="col">
+                                    <input type="text" required name="fn" class="form-control" placeholder="First name*">
+                                </div>
+                                <div class="col">
+                                    <input type="text" required name="ln" class="form-control" placeholder="Last name*">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="col">
+                                    <input type="email" required name="email" class="form-control" placeholder="Email*">
+                                </div>
+                                <div class="col">
+                                    <input type="text" name="pn" class="form-control" placeholder="Phone number">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="col-12">
+                                    <input type="text" required name="subject" class="form-control" placeholder="Subject*">
+                                </div>
+                                <div class="col-12">
+                                    <textarea required rows="5" name="message" class="form-control" placeholder="Message*"></textarea>
+                                </div>
+                            </div>
+                            <div class="form-row d-flex justify-content-end"><button type="button" name="submit" class="button submit yellow-pale">Submit</button></div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-
+    <footer>
+        <section class="container">
+            <div class="row">
+                <div class="col-12 d-flex justify-content-center">
+                    <a href="https://www.linkedin.com/in/steven-wu-226047113/" target="_blank"><div class="icon-holder"><i class="fab fa-linkedin-in"></i></div></a> 
+                    <a href="https://www.facebook.com/StevenMSP1" target="_blank"><div class="icon-holder"><i class="fab fa-facebook"></i></div></a>
+                    <a href="https://twitter.com/1337msp1" target="_blank"><div class="icon-holder"><i class="fab fa-twitter"></i></div></a>
+                    <a href="https://github.com/swu1337" target="_blank"><div class="icon-holder"><i class="fab fa-github"></i></div></a>
+                </div>
+                <div class="col"><p>Steven Wu &copy; 2018</p></div>
+            </div>
+        </section>
+    </footer>
     <div class="modal fade" id="modal-hhs" tabindex="-1" role="dialog" aria-labelledby="modal-hhsTitle" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <div class="slider">
-                            <img src="img/next.png" class="next" />
-                            <figure class="active">
-                                <img src="img/slider/hhs/hhs1.jpg" alt="" />
-                            </figure>
-                            <figure>
-                                <img src="img/slider/hhs/hhs2.png" alt="" />
-                            </figure>
-                            <img src="img/next.png" class="prev" />
-                        </div>
+                        <figure>
+                            <img class="modal-img" src="img/slider/hhs/hhs1.jpg" alt="hhs" />
+                        </figure>
                     </div>
                     <div class="modal-body">
                         <p class="lead">The Hague University Registration System</p>
                         <p class="technology">HTML, CSS, Sass, Git, NPM, AngularJS, Grunt</p>
                         <p class="case-study">
                             I was a intern at Competa as a front-end developer, this project is made under their name and thats why I'm not allowed to share allot.
-                            Basically it's a registration system where students can register for a course.
-                            Unfortunately there is no more images/screenshot of work process since everthing was private. I learned most of my coding skills on this project. I watched allot of tutorials and follow allot of blogs.
-                            I was responsible for reset password of the web application, that is getting and setting user input through an back-end API. I also worked on the styling for the calender where people can see their timetable.
-                            Furthermore I was assigned to refactor allot of code and made the project deployment ready.
+                            Basically it's a registration system where students can register for a courses/lessons.
+                            Unfortunately there is no more images/screenshot of work process due to work privacy.
+                            I learned most of my coding skills on this project. I watched allot of tutorials and followed allot of AngularJS blogs.
+                            We worked in teams and used Scrum methods througout the project. Communication in this project was key to succes. 
+                            We had to communicate with other teams to able to finish a task.
+                            As for my part, I was responsible for functionality and styling of reset password page in the project.
+                            I also worked on the styling for the calender where people can see their lessons and courses.
+                            Furthermore I was assigned to refactor allot of codes and also made the project deployment ready.
                             Allot of AngularJS was used in this project.
                         </p>
                     </div>
@@ -348,11 +411,12 @@
                     <p class="lead">Competa Website 2.0</p>
                     <p class="technology">HTML, CSS, Sass, PHP, Wordpress</p>
                     <p class="case-study">
-                        I was part of a scrum team who made this website when I was still at Competa as an intern.
+                        I was part of a scrum team who made this website when I was still an intern at Competa.
                         This project is a redesign of the old competa website. We used WordPress for CMS.
                         We made our own template by writing HTML and CSS. I was responsible for the who we are page of the website.
-                        We implemented the BEM methodology with Sass in this project.
-                        I also worked on a easter egg arcade game that has the concept as Space Invaders, it was made with a JavaScript library called Phaser. I checked their website, they have a new design now.
+                        It was basically turning design into codes. We implemented the BEM methodology with Sass in this project.
+                        I also worked on a easter egg arcade game that has the same concept as Space Invader. We used a JavaScript library called Phaser for making the game.
+                        I recently checked their website, they changed to another design unfortunately.
                     </p>
                 </div>
                 <div class="modal-footer">
@@ -369,19 +433,19 @@
                     <div class="slider">
                         <img src="img/next.png" class="next" />
                         <figure class="active">
-                            <img src="img/slider/imperium/1.png" alt="" />
+                            <img src="img/slider/imperium/1.jpg" alt="1" />
                         </figure>
                         <figure>
-                            <img src="img/slider/imperium/2.jpg" alt="" />
+                            <img src="img/slider/imperium/2.jpg" alt="2" />
                         </figure>
                         <figure>
-                            <img src="img/slider/imperium/3.png" alt="" />
+                            <img src="img/slider/imperium/3.jpg" alt="3" />
                         </figure>
                         <figure>
-                            <img src="img/slider/imperium/4.png" alt="" />
+                            <img src="img/slider/imperium/4.jpg" alt="4" />
                         </figure>
                         <figure>
-                            <img src="img/slider/imperium/5.png" alt="" />
+                            <img src="img/slider/imperium/5.jpg" alt="5" />
                         </figure>
                         <img src="img/next.png" class="prev" />
                     </div>
@@ -390,14 +454,16 @@
                     <p class="lead">Imperium Website</p>
                     <p class="technology">HTML, CSS, JavaScript and jQuery</p>
                     <p class="case-study">
-                        Imperium Website is school project focused on implementing the designing and realise phase into practice.
-                        First we focus on getting all the information from the client.
-                        We converge information into a debriefing, user stories and requirements.
-                        The next step is to convert those information into a prototype(paper).
-                        With this prototype we can ask for feedback.
-                        After prototyping we made a sitemap and navigation model to study the structure of the website.
+                        Imperium Website is a school project focused on implementing the designing and realise phase into out project.
+                        First, we focus on getting all the information from the client.
+                        Secondly, we converge the given information into a debriefing, user stories and requirements.
+                        Thirdly, we used the stories and requirements to make a paper prototype.
+                        We used this prototype to test the concept and ask for improvements.
+                        After prototyping we made a sitemap and navigation model to study/set the structure of the website.
                         After that we made clickable prototypes to test the interaction and user experience.
-                        Style guide is the next step, in the style guide we specify the style guidelines for the website. After that is realising the website.
+                        We used heuristic evaluation and  scenario based testing to achieve that. 
+                        Style guide is the next step, in the style guide we specify guidelines for the website. 
+                        After that is we had to realise the website using only HTML, CSS and JavaScript/jQuery.
                         Bootstrap was not allowed so I had to style everthing by myself. HTML, CSS, JS, jQuery was used in this project.
                     </p>
                 </div>
