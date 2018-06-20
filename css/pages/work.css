@@ -1,6 +1,5 @@
 .work {
-    background-color: var(--pink-awesome);
-    padding-bottom: 150px;
+    background-color: var(--lapiz);
 }
 
 .work-title {
@@ -10,8 +9,9 @@
 
 .work-holder {
     width: 100%;
-    height: 250px;
+    height: 350px;
     position: relative;
+    margin: 0;
 }
 
 .work-holder img {
@@ -19,7 +19,6 @@
     height: 100%;
     object-fit: cover;
     object-position: center;
-    border-radius: 5px;
 }
 
 .work-holder figcaption {
@@ -32,7 +31,6 @@
     color: white;
     background-color: rgb(36, 123, 160, 0.7);
     transition: 0.3s ease;
-    border-radius: 5px;
 }
 
 .work-holder:hover figcaption {
@@ -72,4 +70,10 @@
     left: 50%;
     bottom: 0;
     transform: translate(-50%, -50%);
+}
+
+.work .container-wrapper {
+    padding-bottom: 150px;
+    background-color: var(--pink-awesome);
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 6vw), 50% 100%, 0 calc(100% - 6vw));
 }

@@ -1,0 +1,13 @@
+.contact {
+    background-color: var(--lapiz);
+}
+
+.contact-title {
+    color: white;
+    text-align: center;
+    padding: 40px 0 60px 0;
+}
+
+.contact  .touch {
+    font-size: 40px;
+}
