@@ -1,31 +1,56 @@
 .landing {
+    position: relative;
     width: 100%;
     height: 100vh;
+    overflow: hidden;
 }
 
 .landing .container-wrapper {
     background-color: var(--gray-dark);
 }
 
-.intro {
-    color: white;
+.logo {
+    margin: 70px;
 }
 
-.intro .ghost-button {
+.intro {
+    margin-left: 70px;
+}
+
+.intro .button {
     margin-top: 25px;
 }
 
-.landing-info {
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    background-color: var(--gray-dark);
+.intro-heading {
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    font-size: 8rem;
+    font-weight: 700;
+    letter-spacing: 10px;
+    text-transform: uppercase;
 }
 
-.landing-photo {
-    background-image: url("../../img/landing.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    clip-path: polygon(12% 0, 100% 0, 100% 100%, 0 100%);
+p.intro-sub {
+    color: #232323;
+    font-size: 2.5rem;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.landing-info, .landing-video {
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow: hidden;
+}
+
+.landing-info {
+    z-index: 2;
+    background-color: rgba(255, 255, 255, 0.9);
+    clip-path: polygon(0 0, 55% 0, 50% 100%, 0 100%);
 }

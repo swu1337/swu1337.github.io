@@ -1,3 +1,4 @@
+
 header {
     display: flex;
     position: absolute;
@@ -6,16 +7,6 @@ header {
     width: 100%;
     justify-content: space-between;
     align-items: center;
-}
-
-.logo {
-    width: 80px;
-    margin: 30px;
-}
-
-.logo img {
-    width: 100%;
-    height: auto;
 }
 
 header nav ul {
