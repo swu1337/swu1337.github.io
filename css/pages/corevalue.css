@@ -1,26 +1,23 @@
-.corevalue {
-   background-color: var(--yellow-pale);
-}
-
 .corevalue-title {
-    padding-top: 50px;
-    color: white;
+    padding-top: 160px;
+    color: black;
 }
 
 .corevalue .card-deck {
-    padding-top: 30px;
-    padding-bottom: 160px;
+    padding-top: 50px;
+    padding-bottom: 170px;
 }
 
 .corevalue .card-deck .card {
-    border-radius: 10px;
+    border-radius: 0px;
+    border: none;
 }
 
 .corevalue .card-header {
     padding: 0;
-    width: 70%;
+    width: 55%;
     border-radius: 50%;
-    margin: 45px auto;
+    margin: 50px auto 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -44,17 +41,19 @@
 }
 
 .corevalue .card-title {
-    font-size: 24px;
-    font-weight: bold;
+    font-family: 'Oswald';
+    font-size: 28px;
     text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
 }
 
 .corevalue .card-text {
+    font-size: 18px;
     text-align: center;
-    padding: 10px 20px;
+    padding: 15px 17px 35px;
 }
 
 .corevalue .container-wrapper {
-    background-color: var(--green-foam);
-    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 6vw), 0 100%);
+    background-color: #f8f8f8;
 }
