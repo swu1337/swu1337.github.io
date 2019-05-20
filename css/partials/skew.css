@@ -1,0 +1,16 @@
+.skew-right::after, .skew-left::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: inherit;
+    z-index: -1;
+    bottom: 0;
+    transform-origin: left bottom;
+    transform: skewY(2deg);
+}
+
+.skew-left::after {
+    transform-origin: right bottom;
+    transform: skewY(-2deg);
+}

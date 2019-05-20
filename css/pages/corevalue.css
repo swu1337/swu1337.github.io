@@ -1,5 +1,11 @@
+.corevalue {
+    position: relative;
+    z-index: 9;
+    background-color: #f8f8f8;
+}
+
 .corevalue-title {
-    padding-top: 160px;
+    padding-top: 175px;
     color: black;
 }
 
@@ -52,8 +58,4 @@
     font-size: 18px;
     text-align: center;
     padding: 15px 17px 35px;
-}
-
-.corevalue .container-wrapper {
-    background-color: #f8f8f8;
 }

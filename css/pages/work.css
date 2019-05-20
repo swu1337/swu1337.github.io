@@ -1,5 +1,6 @@
 .work {
-    background-color: var(--lapiz);
+    position: relative;
+    z-index: 7;
 }
 
 .work-title {
