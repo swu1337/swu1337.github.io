@@ -109,7 +109,7 @@ button.button, a.button {
 
 button.button:hover, a.button:hover {
     color: white;
-    background-color: #252525;
+    background-color: #1f1e1e;
     text-decoration: none;
     width: 185px;
 }

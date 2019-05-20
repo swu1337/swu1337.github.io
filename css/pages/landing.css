@@ -10,11 +10,14 @@
 }
 
 .logo {
-    margin: 70px;
+    margin: 88px;
 }
 
 .intro {
-    margin-left: 70px;
+    margin-left: 88px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .intro .button {
