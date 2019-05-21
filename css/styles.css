@@ -13,14 +13,6 @@
 @import url("pages/work.css");
 @import url("pages/contact.css");
 
-:root {
-    --lapiz: #247BA0;
-    --green-sheen: #70C1B3;
-    --green-foam: #B2DBBF;
-    --yellow-pale: #F3FFBD;
-    --pink-awesome: #FF1654;
-}
-
 body {
     font-family: 'Open Sans';
 }
