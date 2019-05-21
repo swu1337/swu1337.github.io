@@ -1,3 +1,7 @@
 .logo-bar {
     fill: black;
 }
+
+.menu-logo .logo-bar {
+    fill: white;
+}

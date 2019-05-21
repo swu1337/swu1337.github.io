@@ -5,10 +5,6 @@
     overflow: hidden;
 }
 
-.landing .container-wrapper {
-    background-color: var(--gray-dark);
-}
-
 .logo {
     margin: 88px;
 }
@@ -27,7 +23,7 @@
 .intro-heading {
     color: black;
     font-family: 'Oswald', sans-serif;
-    font-size: 8rem;
+    font-size: 6rem;
     font-weight: 700;
     letter-spacing: 10px;
     text-transform: uppercase;
