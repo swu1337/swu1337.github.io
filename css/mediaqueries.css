@@ -1,0 +1,65 @@
+.landing-video {
+    display:none;
+}
+
+.landing-info {
+    clip-path: unset;
+    background-color: white;
+}
+
+.intro {
+    margin-left: 40px;
+}
+
+.logo svg {
+    width: var(--logo-size);
+    height: var(--logo-size);
+}
+
+aside.menu {
+    top: 3%;
+    right: 26%;
+    background-color: white;
+    width: var(--menu-size);
+    height: var(--menu-size);
+}
+
+aside.menu span {
+    color: black;
+    font-size: 2rem;
+}
+
+.intro-heading {
+    font-size: 4rem;
+}
+
+p.intro-sub {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 1.3rem;
+}
+
+button.button, a.button {
+    width: 145px;
+    padding: 0.8em 0em;
+    font-size: 16px;
+}
+
+@media (min-width: 576px) {
+
+}
+
+
+@media (min-width: 768px) {
+
+}
+
+
+@media (min-width: 992px) {
+
+}
+
+
+@media (min-width: 1200px) {
+
+}

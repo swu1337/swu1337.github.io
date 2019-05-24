@@ -13,7 +13,14 @@
 @import url("pages/work.css");
 @import url("pages/contact.css");
 
+
+:root {
+    --logo-size: 100px;
+    --menu-size: 50px;
+}
+
 body {
+    background-color: red;
     font-family: 'Open Sans';
 }
 

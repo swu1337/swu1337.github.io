@@ -6,7 +6,7 @@
 }
 
 .logo {
-    margin: 88px;
+    margin-bottom: 40px;
 }
 
 .intro {
@@ -23,7 +23,7 @@
 .intro-heading {
     color: black;
     font-family: 'Oswald', sans-serif;
-    font-size: 6rem;
+    font-size: 7rem;
     font-weight: 700;
     letter-spacing: 10px;
     text-transform: uppercase;
