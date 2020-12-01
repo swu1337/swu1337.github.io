@@ -21,6 +21,8 @@
     background-color: #f8f8f8;
     position: relative;
     margin-bottom: 31px;
+    border-radius: 8px;
+    overflow: hidden;
 }
 
 .skill-holder img {
